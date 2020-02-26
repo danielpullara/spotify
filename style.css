@@ -103,6 +103,7 @@ ul {
     padding: 0 2px;
     font-family: Circular, spotify-circular, Helvetica, Arial, sans-serif;
     width: 200px;
+    font-weight: 700;
     
 }
 
@@ -158,6 +159,8 @@ ul {
     height: 100%;
     display:flex;
     flex-direction:column;
+    padding-bottom: 100px;
+    background-color: black
 }
 
 .spotify-logo {
@@ -175,7 +178,7 @@ h4{
 }
 .li-edit {
     line-height: 1.5;
-    font-family: Circular, spotify-circular, Helvetica, Arial, sans-serif;;
+    font-family: Circular, spotify-circular, Helvetica, Arial, sans-serif;
     padding: 3px 0 15px;
     font-weight:700;
 }
