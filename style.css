@@ -6,18 +6,26 @@ nav {
     height: 100px;
     display: flex;
     align-items: center;
-    background-color: black;
+    background-color: rgba(59, 40, 40, 0.7);
     justify-content: space-between;
     position: fixed;
     padding: 0px 15% 0 15%;
     width: 70%;
-    opacity: .7;
 }
 
-nav>ul {
+#hihi {
     display: flex;
+    max-width: fit-content;
+    list-style-type: none;
+    font-family: Circular, spotify-circular, Helvetica, Arial, sans-serif;
+    /* width: 200px; */
+    font-weight: 700;
 }
 
+.footer-1>ul {
+    display: flex;  
+
+}
 .content-list {
     padding-right: 30px;
     Color: White;
@@ -94,10 +102,11 @@ section {
 footer {
     height: 80vh;
     background-color: black;
-    margin: 20px auto;
+    padding: 80px 15% 50px 15%;
+
 }
 
-ul {
+.ul-footer {
     list-style-type: none;
     margin: 0;
     padding: 0 2px;
@@ -111,8 +120,6 @@ ul {
     display: flex;
     justify-content: space-between;
     flex: 1 0 0%;
-    margin: 0 135px 0 135px;
-    padding: 80px 0 50px;
 }
 .footer-2{
     justify-content: flex-end;
@@ -132,8 +139,7 @@ ul {
     justify-content: space-evenly;
     width: 60%;
     font-size: 12px;  
-    padding: 0 0 0 120px;  
-    margin-right: 420px;
+    margin-right: 10%;
 }
 .left-column {
     display: flex;
@@ -159,8 +165,7 @@ ul {
     height: 100%;
     display:flex;
     flex-direction:column;
-    padding-bottom: 100px;
-    background-color: black
+    background-color: black;
 }
 
 .spotify-logo {
